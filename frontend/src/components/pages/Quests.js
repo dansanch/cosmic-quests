@@ -4,6 +4,8 @@ import '../pages/Quests.css';
 
 
 const Quests = () => {
+  console.log('Quests is being rendered'); // Replace "ComponentName" with the actual component name.
+
   const [quests, setQuests] = useState([]);
 
   useEffect(() => {

@@ -2,6 +2,8 @@ import React from 'react';
 import '../pages/Landing.css';
 
 const Landing = () => {
+  console.log('Landing is being rendered'); // Replace "ComponentName" with the actual component name.
+
   return (
     <div className="jumbotron">
       <h1 className="display-4">Cosmic Fantasy Quests</h1>

@@ -4,6 +4,9 @@ import '../pages/Items.css';
 
 
 const Items = () => {
+
+  console.log('Items is being rendered'); // Replace "ComponentName" with the actual component name.
+
   const [items, setItems] = useState([]);
 
   useEffect(() => {
